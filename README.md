@@ -9,7 +9,7 @@ Use this component in [A-Frame](https://aframe.io), together with the [Networked
 
 ## Usage
 
-### Add the bytbeat component to your desired A-Frame entity to include the Bytbeat Live Coding environment. A child entity including the Super-Keyboard component needs to be attached:
+### Add the bytebeat component to your desired A-Frame entity to include the Bytbeat Live Coding environment. A child entity including the Super-Keyboard component needs to be attached:
 
 ```html
     <a-scene>
