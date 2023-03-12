@@ -24,13 +24,14 @@ Use this component in [A-Frame](https://aframe.io), together with the [Networked
 	</a-entity>
     </a-scene>
 ```
+
+Bytebeat Live Coding objects can also be spawned into the environment. See Glitch example for implementation.
+
 ###### Attributes:
 
 | Property | Description | Default |
 | ------------- | ------------- | ------------- |
 | code | current source code  | _ |
-
-Bytebeat Live Coding objects can also be spawned into the environment. See Glitch example for implementation.
 
 ## Run
 See the Metabeat metaverse system for implementation: [Metabeat](https://github.com/AudioGroupCologne/Metabeat) 
