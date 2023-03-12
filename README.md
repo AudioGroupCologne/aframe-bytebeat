@@ -16,7 +16,7 @@ Use this component in [A-Frame](https://aframe.io), together with the [Networked
         <a-entity bytebeat="">
               <a-entity
                 id="keyboard"
-                super-keyboard="hand:; 		imagePath:./aframe-bytebeat/;multipleInputs:true;align:center"
+                super-keyboard="hand:; imagePath:./aframe-bytebeat/;multipleInputs:true;align:center"
                 byte-keyboard
                 position="0 -0.6 +0.6"
                 rotation="-30 0 0"
