@@ -25,8 +25,6 @@ Use this component in [A-Frame](https://aframe.io), together with the [Networked
     </a-scene>
 ```
 
-Bytebeat Live Coding objects can also be spawned into the environment. See Glitch example for implementation.
-
 ###### Attributes:
 
 | Property | Description | Default |
