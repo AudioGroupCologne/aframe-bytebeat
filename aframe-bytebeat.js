@@ -148,7 +148,7 @@ class bytebeatSynth {
     ).components["resonance-audio-room"].audioContext);
     await console.log("wait...");
 
-    await this.audioCtx.audioWorklet.addModule("bytebeat-worker.js");
+    await this.audioCtx.audioWorklet.addModule("./aframe-bytebeat/bytebeat-worker.js");
 
     this.bytebeatWorker = new AudioWorkletNode(
       this.audioCtx,
@@ -284,13 +284,13 @@ AFRAME.registerComponent("byte-keyboard", {
     };
     this.el.components["super-keyboard"].addCustomModel("byte", model);
     this.el.setAttribute("super-keyboard", {
-      imagePath: "./",
+      imagePath: "./aframe-bytebeat/",
       model: "byte",
     });
   },
 });
 
-AFRAME.registerComponent('metabeat-persistent', {
+AFRAME.registerComponent('bytebeat-persistent', {
   schema: {
     template: { default: '' },
     keyCode: { default: 32}
@@ -313,4 +313,3 @@ AFRAME.registerComponent('metabeat-persistent', {
     }
   }
 });
-
